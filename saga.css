@@ -1,5 +1,5 @@
 html {
-  
+  font-size:62.5%;
 }
 
 body {
@@ -11,6 +11,10 @@ header {
   background-color: #071d73;
   font-family: Montserrat;
   color: white;
-  font-weight: 750px;
-  height: 2vh;
+  font-weight: bold;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  text-align: center;
 }
