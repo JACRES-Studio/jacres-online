@@ -14,7 +14,6 @@ header {
   font-weight: bold;
   height: 5rem;
   position: fixed;
-  top: 0;
   z-index: 9999;
   text-align: center;
 }
