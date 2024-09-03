@@ -2,6 +2,11 @@ html {
   
 }
 
+body {
+  margin: 0px;
+  border: 0px;
+}
+
 header {
   background-color: #071d73;
   font-family: Montserrat;
