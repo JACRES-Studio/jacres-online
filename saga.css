@@ -55,10 +55,11 @@ main p {
 }
 
 main button {
-  background-color: #393939;
-  color: white;
+  color: #071d73;
+  background-color: white;
+  border-color: #071d73;
   font-family: Montserrat;
-  border: none; padding: 1rem 1.5rem 1rem 1.5rem;
+  border: 2; padding: 1rem 1.5rem 1rem 1.5rem;
   font-size: 2rem;
   font-weight: 500;
   transition-duration: .2s;
