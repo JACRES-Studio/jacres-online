@@ -1,41 +1,70 @@
 html {
-  font-size:62.5%;
-}
+    font-size:62.5%;
+  }
+  
+  body {
+    margin: 0px;
+    border: 0px;
+  }
+  
+  h1, h2, h3 {
+    font-family: Montserrat;
+    color: #071d73;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  header {
+    background-color: #071d73;
+    font-family: Montserrat;
+    color: white;
+    font-weight: bold;
+    height: 7rem;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  header p {
+    font-size: 2rem;
+  }
+  
+  main {
+    padding-top: 5rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
-body {
-  margin: 0px;
-  border: 0px;
-}
-
-h1, h2, h3 {
+  
+p {
   font-family: Montserrat;
+}
+main p {
   color: #071d73;
-  font-weight: bold;
-  margin: 0px;
-  margin-left: 2rem;
-}
-
-header {
-  background-color: #071d73;
-  font-family: Montserrat;
-  color: white;
-  font-weight: bold;
-  height: 5rem;
-  position: fixed;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-header p {
   font-size: 2rem;
 }
 
-main {
-  padding-top: 5rem;
-  width: 100%;
-  height: 5vh;
-  background-color: yellow;
+main button {
+  background-color: #393939;
+  color: white;
+  font-family: Montserrat;
+  border: none; padding: 1rem 2rem 1rem 2rem;
+  font-weight: bold;
+  transition-duration: .2s;
+  cursor: pointer;
+}
+
+main button:hover {
+  background-color: #071d73;
+}
+
+footer {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
 }
