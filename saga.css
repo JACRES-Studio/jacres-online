@@ -68,8 +68,8 @@ main button {
 }
 
 main button:hover {
-  background-color: #071d73;
-  color: white;
+  border-color: orangered;
+  color: orangered;
 }
 
 footer {
