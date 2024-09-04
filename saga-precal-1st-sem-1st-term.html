@@ -8,11 +8,81 @@
 
   <body>
     <header>
-      <p>Study Assist and Guide for Academics</p>
+        
+        <p>Study Assist and Guide for Academics</p>
     </header>
 
     <main>
-      <h1 style="padding-top: 1rem;">Pre-Calculus (Ms. Yamco) ~ Contribution by Jan Cyrus</h1>
+        <h1 style="font-size: 3rem; text-align: center; font-weight: 500; margin-top: 15rem; font-weight: 900;">Pre-Calculus (Ms. Yamco)</h1>
+        <p style="text-align: center; margin: .2rem 0 0 0; font-size: 1.7rem; font-weight: 500;">Reviewer by Cyrus</p>
+
+        <div id="lesson-1" style="margin-left: 5rem;">
+            <p style="padding-top: 2rem; font-weight: 650;">Lesson 1 - Intro to Conic Sections</p>
+            <video src="conic_sections_video.mp4" style="text-align: center; height: 50rem; width: 80rem;" controls></video>
+
+            <p style="padding-top: 4rem; margin-left: 5rem; font-weight: 500;">Practice Questions</p>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939; font-weight: bold;">Answer 'True' if the underlined word is correct.  Otherwise, replace it with the correct term.</p>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">1.) A circle is formed when the plane is <u>parrallel</u> to the axis. </p>
+            <button id="question-1" style="margin-left: 10rem;" onclick="l1_q1();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">2.) A <u>hyperbola</u> is formed when the plane intersects with two generators. </p>
+            <button id="question-2" style="margin-left: 10rem;" onclick="l1_q2();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">3.) An <u>ellipse</u> has a distinct U-shape. </p>
+            <button id="question-3" style="margin-left: 10rem;" onclick="l1_q3();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">4.) To form an <u>ellipse</u>, the plane must not be perpendicular or parallel to any generators or axis in the conic sections. </p>
+            <button id="question-4" style="margin-left: 10rem;" onclick="l1_q4();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">5.) A hyperbola looks like <u>three</u> parabolas. </p>
+            <button id="question-5" style="margin-left: 10rem;" onclick="l1_q5();">Reveal Answer</button>
+            
+            <p style="padding-top: 3rem; margin-left: 7.5rem; color: #393939; font-weight: bold;">Identification</p>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">1.) Plane is parrallel to 1 generator.</p>
+            <button id="question-6" style="margin-left: 10rem;" onclick="l1_q6();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">2.) Plane intersects with both generators. </p>
+            <button id="question-7" style="margin-left: 10rem;" onclick="l1_q7();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">3.) Plane is perpendicular to the Axis but not parallel to the generators. </p>
+            <button id="question-8" style="margin-left: 10rem;" onclick="l1_q8();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">4.) Plane is not parallel to the generators. </p>
+            <button id="question-9" style="margin-left: 10rem;" onclick="l1_q9();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">5.) Plane is parallel to the axis. </p>
+            <button id="question-10" style="margin-left: 10rem;" onclick="l1_q10();">Reveal Answer</button>
+
+        </div>
+        <div id="lesson-2" style="margin-left: 5rem;">
+            <p style="padding-top: 10rem; font-weight: 650;">Lesson 2 - Equations of a Circle</p>
+            <video src="general_standard_forms_of_circle.mp4" style="text-align: center; height: 50rem; width: 80rem;" controls></video>
+
+            <p style="padding-top: 4rem; margin-left: 5rem; font-weight: 500;">Identification</p>
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939; font-weight: bold;">Identify the Conic Section Based on their General Form</p>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">1.) x²+6x+y²-8y-18=0</p>
+            <button id="l2_q1" style="margin-left: 10rem;" onclick="l2_q1();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">2.) 6x²+6x+3y²+3y=169 </p>
+            <button id="l2_q2" style="margin-left: 10rem;" onclick="l2_q2();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">3.) x²-10x-y²+12y-81=0 </p>
+            <button id="l2_q3" style="margin-left: 10rem;" onclick="l2_q3();">Reveal Answer</button>
+
+            <p style="padding-top: 1rem; margin-left: 7.5rem; color: #393939;">4.) x²-2x+y+4y+32=0 </p>
+            <button id="l2_q4" style="margin-left: 10rem;" onclick="l2_q4();">Reveal Answer</button>
+
+        </div>
     </main>
+
+    <footer>
+        <p style="width: 100%; text-align: center; font-size: 1.5rem;">© JACRES SAGA 2024 // Website created by Josh</p>
+    </footer>
   </body>
+
+  <script src="saga.js"></script>
 </html>
