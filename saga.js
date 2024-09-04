@@ -41,6 +41,7 @@ function l1_q5() {
 function l1_q6() {
     document.querySelector("#question-6").innerHTML = "Parabola";
     document.querySelector("#question-6").style.background = "green";
+    document.querySelector("#question-6").style.borderColor = "green";
     document.querySelector("#question-6").style.cursor = "default";
     document.querySelector("#question-6").style.backgroundColor = "white";
 }
