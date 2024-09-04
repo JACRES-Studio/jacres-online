@@ -83,3 +83,38 @@ function l2_q4() {
     document.querySelector("#l2_q4").style.cursor = "default";
 }
 
+function l3_q1() {
+    document.querySelector("#l3_q1").innerHTML = "(x-1)²+(y-4)²=64 // C: (1,4) R=6";
+    document.querySelector("#l3_q1").style.background = "green";
+    document.querySelector("#l3_q1").style.cursor = "default";
+}
+
+function l3_q2() {
+    document.querySelector("#l3_q2").innerHTML = "x+2)²+(y-2)²=36 // C: (-2,2) R=6";
+    document.querySelector("#l3_q2").style.background = "green";
+    document.querySelector("#l3_q2").style.cursor = "default";
+}
+
+function l3_q3() {
+    document.querySelector("#l3_q3").innerHTML = "(x+5)²+(Y+2)² = 32 // C: (-5,-2) R= √32 or 5.7";
+    document.querySelector("#l3_q3").style.background = "green";
+    document.querySelector("#l3_q3").style.cursor = "default";
+}
+
+function l3_q4() {
+    document.querySelector("#l3_q4").innerHTML = "x²+(y+4)² = 100 // C: (0,-4) R=10";
+    document.querySelector("#l3_q4").style.background = "green";
+    document.querySelector("#l3_q4").style.cursor = "default";
+}
+
+function l3_q5() {
+    document.querySelector("#l3_q5").innerHTML = "(x-2)²+(y-0.4)²=5.7 // C: (2,0.4) R= 2.4 or √5.7";
+    document.querySelector("#l3_q5").style.background = "green";
+    document.querySelector("#l3_q5").style.cursor = "default";
+}
+
+function l3_q6() {
+    document.querySelector("#l3_q6").innerHTML = "(x-2.5)²+(y+1.5)²=9 // C: (2.5 , 1.5) R=3";
+    document.querySelector("#l3_q6").style.background = "green";
+    document.querySelector("#l3_q6").style.cursor = "default";
+}
