@@ -43,6 +43,11 @@ html {
 p {
   font-family: Montserrat;
 }
+
+main {
+  margin: auto;
+}
+
 main p {
   color: #071d73;
   font-size: 2rem;
