@@ -51,13 +51,15 @@ main {
 main p {
   color: #071d73;
   font-size: 2rem;
+  font-weight: 500;
 }
 
 main button {
   background-color: #393939;
   color: white;
   font-family: Montserrat;
-  border: none; padding: 1rem 2rem 1rem 2rem;
+  border: none; padding: 1rem 1.5rem 1rem 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   transition-duration: .2s;
   cursor: pointer;
