@@ -144,7 +144,7 @@ function l3_q4() {
 }
 
 function l3_q5() {
-    document.querySelector("#l3_q5").innerHTML = "(x-2)²+(y-0.4)²=5.7 // C: (2,0.4) R= 2.4 or √5.7";
+    document.querySelector("#l3_q5").innerHTML = "(x-2)²+(y-0.4)²=5.7 // C = (2/3, 1/3) r = 2";
     document.querySelector("#l3_q5").style.borderColor = "green";
     document.querySelector("#l3_q5").style.color = "green";
     document.querySelector("#l3_q5").style.cursor = "default";
